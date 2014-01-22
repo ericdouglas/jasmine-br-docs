@@ -1,6 +1,6 @@
 # Jasmine Br Docs
 
-![Jasmine BR](jasmine-img.png)
+![Jasmine BR](img/jasmine-img.png)
 
 Documentação da [versão 2.0.0](http://jasmine.github.io/2.0/introduction.html) do framework Jasmine para testes de código JavaScript.
 
