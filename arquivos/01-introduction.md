@@ -917,6 +917,8 @@ Chamadas à `beforeEach`, `it` e `afterEach` podem ter um simples argumento opci
 
 Essa especulação não vai iniciar até que a função `done` seja chamada pela chamada `beforeEach`. E esta especulação não vai estar completa até que `done` seja chamado.
 
+<pre>
+<code>
 describe("Especulações Assíncronas", function () {
 	var value;
 
@@ -933,6 +935,8 @@ describe("Especulações Assíncronas", function () {
 		done();
 	});
 });
+</code>
+</pre>
 
 ## Downloads
 
