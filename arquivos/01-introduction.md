@@ -351,7 +351,7 @@ describe("Especulações pendentes", function () {
 
 ## Spies (espiões)
 
-Jasmine tem duas funções de teste chamadas 'spies' (espiões). Um *spy* (espião) pode rastrear qualquer função e chamadas a ela seus argumentos. Há comparadores especiais para interagir com os spies. **Esta sintaxe foi alterada para o Jasmine 2.0**. O comparador `toHaveBeenCalled` vai retornar `true` se o spy tiver sido chamado. O comparador `toHaveBeenCalledWith` vai retornar `true` se a lista de argumentos encontrar qualquer registro chamado com o spy.
+Jasmine tem duas funções de teste chamadas 'spies' (espiões). Um *spy* (espião) pode rastrear qualquer função, suas chamadas e todos os seus argumentos. Há comparadores especiais para interagir com os spies. **Esta sintaxe foi alterada para o Jasmine 2.0**. O comparador `toHaveBeenCalled` vai retornar `true` se o spy tiver sido chamado. O comparador `toHaveBeenCalledWith` vai retornar `true` se a lista de argumentos encontrar qualquer registro chamado com o spy.
 
 <pre>
 <code>
